@@ -15,8 +15,22 @@ import {
     Img
 } from './InfoElements';
 
-const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, 
-    headline, darkText, description, buttonLabel, img, alt, primary, dark, dark2 }) => {
+const InfoSection = ({ 
+    lightBg, 
+    id, 
+    imgStart, 
+    topLine, 
+    lightText, 
+    headline, 
+    darkText, 
+    description, 
+    buttonLabel, 
+    img, 
+    alt, 
+    primary, 
+    dark, 
+    dark2 
+}) => {
   return (
     <>
         <InfoContainer lightBg={lightBg} id={id}>
