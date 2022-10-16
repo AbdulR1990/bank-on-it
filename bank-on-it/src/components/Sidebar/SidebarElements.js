@@ -39,7 +39,7 @@ export const SidebarWrapper = styled.div`
 
 export const SidebarMenu = styled.ul`
     display: grid;
-    grid-template-colums: 1fr;
+    grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 80px);
     text-align: center;
 
@@ -54,7 +54,7 @@ export const SidebarLink = styled(LinkS)`
     justify-content: center;
     font-size: 1.5rem;
     text-decoration: none;
-    list-styled: none;
+    list-style: none;
     transition: 0.2s ease-in-out;
     text-decoration: none;
     color: $fff;
