@@ -1,4 +1,16 @@
-import React from 'react'
+import React from 'react';
+import Icon1 from '../../images/svg-1.svg';
+import Icon2 from '../../images/svg-2.svg';
+import Icon3 from '../../images/svg-3.svg';
+import { 
+    ServicesContainer, 
+    ServicesH1, 
+    ServicesWrapper, 
+    ServicesCard, 
+    ServicesIcon, 
+    ServicesH2, 
+    ServicesP
+} from './ServicesElements';
 
 const Services = () => {
   return (
@@ -18,7 +30,7 @@ const Services = () => {
             <ServicesCard>
                 <ServicesIcon src={Icon3} />
                 <ServicesH2>Investment Portfolio</ServicesH2>
-                <ServicesP>Tailor Your Wealth to Grow as You Do - Play Chess, Not Checkers</ServicesP>
+                <ServicesP>Tailor Your Wealth to Grow as You Do - Play Chess, not Checkers</ServicesP>
             </ServicesCard>
         </ServicesWrapper>
     </ServicesContainer>
