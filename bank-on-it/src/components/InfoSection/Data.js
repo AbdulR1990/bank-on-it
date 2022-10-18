@@ -1,3 +1,7 @@
+import Icon1 from '../../images/svg-1.svg';
+import Icon2 from '../../images/svg-2.svg';
+import Icon3 from '../../images/svg-3.svg';
+
 export const homeObjOne = {
     id: 'about', 
     lightBg: false, 
@@ -8,7 +12,7 @@ export const homeObjOne = {
     description: 'Get access to our exclusive app that allows you to send unlimited transactions with no fees', 
     buttonLabel: 'Take a Look', 
     imgStart: false, 
-    img: require('../../images/svg-1.svg'), 
+    img: {Icon1}, 
     alt: 'Car', 
     dark: true, 
     primary: true, 
@@ -25,7 +29,7 @@ export const homeObjTwo = {
     description: 'Zero fees to deposit or withdraw money from any bank, anywhere in the World', 
     buttonLabel: "Let's Get Started", 
     imgStart: true, 
-    img: require('../../images/svg-2.svg'), 
+    img: {Icon2}, 
     alt: 'Piggybank', 
     dark: false, 
     primary: false, 
@@ -42,7 +46,7 @@ export const homeObjThree = {
     description: 'Your money should move as fast as you do. Why not have financial wizardry at your fingertips?', 
     buttonLabel: 'Start Now', 
     imgStart: false, 
-    img: require('../../images/svg-3.svg'), 
+    img: {Icon3}, 
     alt: 'Graph', 
     dark: false, 
     primary: false, 
